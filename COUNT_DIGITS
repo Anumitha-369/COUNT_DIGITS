@@ -1,0 +1,13 @@
+num=int(input("Enter the number:"))
+count=0
+dum_num=num
+while num!=0:
+    num=num//10
+    count=count+1
+print("The Number",dum_num,"contains",count)
+
+#using inbuilt function
+
+num=int(input("Enter the number:"))
+a=len(str(num))
+print(a)
